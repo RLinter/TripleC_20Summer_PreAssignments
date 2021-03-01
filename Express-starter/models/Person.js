@@ -28,7 +28,7 @@ const personSchema = new mongoose.Schema({
     },
     isMarried: {
         type: Boolean,
-        required: true,
+        required: false,
         default: false
     }
 
